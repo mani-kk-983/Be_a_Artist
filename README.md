@@ -1,47 +1,45 @@
 # Be a Artist
 
-A simple browser-based drawing app with creative painting controls and artistic styling.
-
-## Overview
-
-This small project lets you paint on a canvas using mouse input, choose colors, adjust brush thickness, erase, and save your work locally. It adds extra artistic flair with a rainbow brush mode, spray paint effect, and polished UI styling.
+A simple, interactive drawing application built with HTML5 Canvas and jQuery. Create digital artwork with an intuitive interface featuring color selection, adjustable brush thickness, and persistent storage.
 
 ## Features
 
-- Draw freely on a canvas using the mouse
-- Choose paint color using a color picker
-- Adjust brush thickness with a slider
-- Erase with a dedicated erase mode
-- Save artwork to local storage for later reload
-- Rainbow brush mode for colorful strokes
-- Spray paint mode for textured effects
-- Responsive visual design with a glow and painterly theme
+- **Drawing Canvas** - 500x400px canvas for creating artwork
+- **Color Picker** - Select any color from a color palette to paint
+- **Adjustable Brush Thickness** - Use a slider to change line width (shown with a preview circle)
+- **Eraser Tool** - Toggle between paint and erase modes
+- **Save Artwork** - Save your creation to browser's local storage
+- **Reset Canvas** - Clear the canvas and start over
+- **Load Previous Work** - Automatically loads your last saved artwork when you open the page
+
+## How to Use
+
+1. Open `index.html` in your web browser
+2. Select a color using the color picker
+3. Adjust the brush thickness with the slider
+4. Click and drag on the canvas to draw
+5. Use the **Erase** button to toggle eraser mode
+6. Click **Save** to store your artwork (saved locally in your browser)
+7. Click **Reset** to clear the canvas
+
+## Technologies Used
+
+- **HTML5** - Canvas API for drawing
+- **CSS3** - Styling with gradients and animations
+- **JavaScript** - Drawing logic and canvas manipulation
+- **jQuery** - DOM manipulation and event handling
+- **jQuery UI** - Slider component
 
 ## Files
 
-- `index.html` — page structure and UI elements
-- `style.css` — styling and visual enhancements
-- `javascript.js` — drawing logic, mode handling, and interaction behavior
+- `index.html` - Main HTML structure
+- `javascript.js` - Drawing functionality and event handlers
+- `style.css` - Styling and layout
 
-## Usage
+## Browser Compatibility
 
-1. Open `index.html` in a web browser.
-2. Use the color picker to select a paint color.
-3. Drag across the white canvas to draw.
-4. Use the slider to change brush thickness.
-5. Click `Erase` to switch to erase mode.
-6. Click `Rainbow` for a colorful gradient brush.
-7. Click `Spray` for a spray paint effect.
-8. Click `Save` to store the canvas image in local storage.
-9. Reload the page to restore saved artwork automatically.
+Works on all modern browsers that support HTML5 Canvas and localStorage.
 
-## Customization
+---
 
-- Change the default brush size range in `javascript.js`.
-- Update the page theme and background in `style.css`.
-- Add more painting modes by extending the drawing logic.
-
-## Notes
-
-- Local storage is used to save canvas images in the browser.
-- The project is built with plain HTML, CSS, and JavaScript for easy editing and extension.
+Made by OmkarKK
